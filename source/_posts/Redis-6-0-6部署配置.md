@@ -68,7 +68,7 @@ source /etc/profile
 
 如果报错：
 
-<img src="../images/Redis-6-0-6部署配置/运行install_server报错.image">
+![运行install_server报错](../images/Redis-6-0-6部署配置/运行install_server报错.image)
 
 ```sh
 # 修改install_server.sh
@@ -77,7 +77,7 @@ vim /usr/local/src/redis-6.0.6/utils/install_server.sh
 
 注释以下内容
 
-<img src="../images/Redis-6-0-6部署配置/install_server注释内容.image">
+![install_server注释内容](../images/Redis-6-0-6部署配置/install_server注释内容.image)
 
 再次执行install_server.sh脚本
 
@@ -106,6 +106,6 @@ vim /usr/local/src/redis-6.0.6/utils/install_server.sh
 
 如果增加了密码验证，还需要修改服务脚本
 
-<img src="../images/Redis-6-0-6部署配置/服务脚本修改.jpg">
+![服务脚本修改](../images/Redis-6-0-6部署配置/服务脚本修改.jpg)
 
     -a 参数，后面跟你的认证密码
