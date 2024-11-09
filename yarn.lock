@@ -778,6 +778,7 @@
     "marked" "^4.0.1"
 
 "hexo-renderer-stylus@^2.0.0":
+  "integrity" "sha512-pn411nLqlmd9oq2oEPZ7AfYrCUmAVUxJ/QnE0fpoTFbLARVHOkJaKr6GlcWmKs2jdYIu8xa7yB7cEFo406k8DA=="
   "version" "2.0.0"
   dependencies:
     "nib" "^1.1.2"
